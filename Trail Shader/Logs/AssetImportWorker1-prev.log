@@ -1,0 +1,261 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.0b1 (ea0f0219deed) revision 15339266'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 8061 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Users\lenovo\Desktop\Проекты\Unity\2022.1.0b1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/lenovo/Desktop/Projects/Trail Shader
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50337
+Successfully changed project path to: C:/Users/lenovo/Desktop/Projects/Trail Shader
+C:/Users/lenovo/Desktop/Projects/Trail Shader
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 119.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.0b1 (ea0f0219deed)
+[Subsystems] Discovering subsystems at path C:/Users/lenovo/Desktop/Проекты/Unity/2022.1.0b1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lenovo/Desktop/Projects/Trail Shader/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Users/lenovo/Desktop/Проекты/Unity/2022.1.0b1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/lenovo/Desktop/Проекты/Unity/2022.1.0b1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/lenovo/Desktop/Проекты/Unity/2022.1.0b1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/lenovo/Desktop/Проекты/Unity/2022.1.0b1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008520 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+				TypeCache.Initialize (131ms)
+					TypeCache.ScanAssembly (128ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lenovo\Desktop\Projects\Trail Shader\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lenovo\Desktop\Projects\Trail Shader\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1685ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1446ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+				TypeCache.Initialize (266ms)
+					TypeCache.ScanAssembly (259ms)
+				ResolveRequiredComponents (10ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (921ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (597ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.1 MB). Loaded Objects now: 5950.
+Memory consumption went from 0.85 GB to 0.85 GB.
+Total: 5.018900 ms (FindLiveObjects: 0.669800 ms CreateObjectMapping: 0.183000 ms MarkObjects: 3.850500 ms  DeleteObjects: 0.313700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 855133.102367 seconds.
+  path: Assets/Shader Graphs_New Shader Graph 1.mat
+  artifactKey: Guid(20e699c01abac0d46ab513a7dfc7c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_New Shader Graph 1.mat using Guid(20e699c01abac0d46ab513a7dfc7c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ae9e278ee5a66016207895cd639a39') in 0.358445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/New VFX.vfx
+  artifactKey: Guid(c63af3d3b156d49478fb164a200e54f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New VFX.vfx using Guid(c63af3d3b156d49478fb164a200e54f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75644b9412c6c261486ca07ea608db05') in 0.404453 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004514 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lenovo\Desktop\Projects\Trail Shader\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lenovo\Desktop\Projects\Trail Shader\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEngine.ResourcesAPIInternal:FindObjectsOfTypeAll <0x000e0>
+	  at UnityEngine.ResourcesAPI:FindObjectsOfTypeAll <0x00072>
+	  at UnityEngine.Resources:FindObjectsOfTypeAll <0x000ad>
+	  at UnityEngine.Resources:FindObjectsOfTypeAll <0x0009a>
+	  at UnityEditor.DiagnosticSwitchesConsoleMessage:Init <0x0008a>
+	  at System.Object:runtime_invoke_void <0x00334>
+	  at <unknown> <0xffffffff>
+	  at System.Reflection.RuntimeMethodInfo:InternalInvoke <0x00151>
+	  at System.Reflection.RuntimeMethodInfo:Invoke <0x00522>
+	  at System.Reflection.MethodBase:Invoke <0x0008e>
+	  at UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes <0x008aa>
+	  at System.Object:runtime_invoke_void <0x00184>
+=================================================================
+Received signal SIGSEGV
+Obtained 45 stack frames
+0x00007ff67c119af5 (Unity) scripting_object_get_class
+0x00007ff67c112e25 (Unity) Scripting::FindObjectsOfType
+0x00007ff67c027165 (Unity) Resources_Bindings::FindObjectsOfTypeAll
+0x00007ff67b1923f1 (Unity) ResourcesAPIInternal_CUSTOM_FindObjectsOfTypeAll
+0x000001d28fc8ec81 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ResourcesAPIInternal:FindObjectsOfTypeAll (System.Type)
+0x000001d28fc8eb23 (Mono JIT Code) UnityEngine.ResourcesAPI:FindObjectsOfTypeAll (System.Type)
+0x000001d28fc8e5be (Mono JIT Code) UnityEngine.Resources:FindObjectsOfTypeAll (System.Type)
+0x000001d28fc8e40b (Mono JIT Code) UnityEngine.Resources:FindObjectsOfTypeAll<T_REF> ()
+0x000001d28fc8dd5b (Mono JIT Code) UnityEditor.DiagnosticSwitchesConsoleMessage:Init ()
+0x000001d28fc8e2e5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe21a3e274 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe2197e864 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe219858af (mono-2.0-bdwgc) [object.c:5771] mono_runtime_try_invoke_array 
+0x00007ffe218bce50 (mono-2.0-bdwgc) [icall.c:4017] ves_icall_InternalInvoke 
+0x00007ffe218e1641 (mono-2.0-bdwgc) [icall-def.h:687] ves_icall_InternalInvoke_raw 
+0x000001d28fad5e02 (Mono JIT Code) (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo:InternalInvoke (System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+0x000001d28fad4c93 (Mono JIT Code) System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+0x000001d28fad46ff (Mono JIT Code) System.Reflection.MethodBase:Invoke (object,object[])
+0x000001d28fad244b (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+0x000001d293a02f65 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffe21a3e274 (mono-2.0-bdwgc) [mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007ffe2197e864 (mono-2.0-bdwgc) [object.c:3064] do_runtime_invoke 
+0x00007ffe2197e9fc (mono-2.0-bdwgc) [object.c:3111] mono_runtime_invoke 
+0x00007ff67c119a34 (Unity) scripting_method_invoke
+0x00007ff67c114534 (Unity) ScriptingInvocation::Invoke
+0x00007ff67c10dea5 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff67c2355bb (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadMethodAttributes
+0x00007ff67c0ede24 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff67c0e368d (Unity) MonoManager::EndReloadAssembly
+0x00007ff67c0eb458 (Unity) MonoManager::ReloadAssembly
+0x00007ff67d022d42 (Unity) LoadDomainAndUserAssemblies
+0x00007ff67d0234da (Unity) LoadUserAssemblies
+0x00007ff67d51b998 (Unity) <lambda_fd5b5f9f09edde8cbb0f784a99c7df3e>::operator()
+0x00007ff67d554552 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff67d5567dd (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff67d559bfe (Unity) asio::io_service::run
+0x00007ff67d5529f1 (Unity) IOService::Run
+0x00007ff67d52b42f (Unity) AssetImportWorkerClient::Run
+0x00007ff67d4f6663 (Unity) RunAssetImportWorkerClientV2
+0x00007ff67d4f66eb (Unity) RunAssetImporterV2
+0x00007ff67cd1876e (Unity) Application::InitializeProject
+0x00007ff67d17ce7b (Unity) WinMain
+0x00007ff67e4c0cd2 (Unity) __scrt_common_main_seh
+0x00007ffe98147034 (KERNEL32) BaseThreadInitThunk
+0x00007ffe982e2651 (ntdll) RtlUserThreadStart
+
